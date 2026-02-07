@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta property="og:title" content="Cat Letter 💌">
+<meta property="og:description" content="Click the envelope to read a cute message from the cat 🐱">
+<meta property="og:image" content="thumbnail.png">
+<meta property="og:type" content="website">
+
+  <title> this is for my love 💌</title>
+  <style>
+    body {
+      background: #fdecef;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Georgia, serif;
+    }
+
+    .envelope {
+      width: 220px;
+      height: 140px;
+      background: #f8b4c4;
+      cursor: pointer;
+      text-align: center;
+      line-height: 140px;
+      border-radius: 6px;
+      font-size: 18px;
+    }
+
+    .letter {
+      display: none;
+      background: white;
+      padding: 20px;
+      width: 260px;
+      margin-top: 20px;
+      border-radius: 6px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- CLICK THIS -->
+  <div class="envelope" onclick="openLetter()">
+    💌 Click Me
+  </div>
+
+  <div class="letter" id="letter">
+    <h3>For my Lei ❤️</h3>
+    <p>
+      This is for the man who made everything bearable. 
+      Hello, my hombre. Just wanna take this moment 
+      to thank all the things you did to me, 
+      you have no idea how it heals pieces of me 
+      that you didn’t break.
+      Just remember na you are not too much, okay?
+      I wanna love you in possible ways, with everything I can. 
+      Thank you for being you, for loving me, and for letting me love you. 
+
+    </p>
+    <p>
+      Let’s make everything memorable. 
+      I can’t wait to spend this life time with you. 
+I wanna make it official. It’s a yes. 
+      I love you always, in all ways.
+
+    </p>
+    <p>— Love, Teffy. 💕</p>
+  </div>
+
+  <script>
+    function openLetter() {
+      document.getElementById("letter").style.display = "block";
+    }
+  </script>
+
+</body>
+</html>
